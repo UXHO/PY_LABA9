@@ -38,3 +38,4 @@ for namee, scoree in people_above_average.items():
 print(f"\nМин балл: {min_s} (участники: {[name for name, score in partic.items() if score == min_s]})")
 print(f"Макс балл: {max_s} (участники: {[name for name, score in partic.items() if score == max_s]})")
 print(f"Средний балл: {avg_s:.2f}")
+print(f"\nМин балл: {min_s}")
